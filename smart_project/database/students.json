@@ -1,0 +1,56 @@
+[
+    {
+        "id": "student-uuid-1",
+        "name": "Alice Smith",
+        "email": "alice@university.edu",
+        "username": "alice",
+        "department": "Computer Science",
+        "enrollment_date": "2024-09-01",
+        "status": "Active"
+    },
+    {
+        "id": "student-uuid-2",
+        "name": "Bob Jones",
+        "email": "bob@university.edu",
+        "username": "bob",
+        "department": "Computer Science",
+        "enrollment_date": "2024-09-01",
+        "status": "Active"
+    },
+    {
+        "id": "student-uuid-3",
+        "name": "Charlie Brown",
+        "email": "charlie@university.edu",
+        "username": "charlie",
+        "department": "Electrical Eng.",
+        "enrollment_date": "2024-09-01",
+        "status": "Active"
+    },
+    {
+        "id": "student-uuid-4",
+        "name": "Diana Prince",
+        "email": "diana@university.edu",
+        "username": "diana",
+        "department": "Electrical Eng.",
+        "enrollment_date": "2024-09-01",
+        "status": "Inactive"
+    },
+    {
+        "id": "student-uuid-5",
+        "name": "Ethan Hunt",
+        "email": "ethan@university.edu",
+        "username": "ethan",
+        "department": "Business Admin",
+        "enrollment_date": "2024-09-01",
+        "status": "Active"
+    },
+    {
+        "id": "ad75a634-5271-4776-9862-b4f41b9cfdce",
+        "name": "Gaddam srija",
+        "email": "gaddamsrija005@gmail.com",
+        "username": "Gaddam_srija05",
+        "department": "Computer Science",
+        "enrollment_date": "2026-07-14",
+        "status": "Active"
+    }
+]

@@ -1,0 +1,162 @@
+/* SmartCampusAI Custom CSS - Glassmorphism Theme */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+/* Apply font globally */
+html, body, [class*="css"], .stApp {
+    font-family: 'Outfit', sans-serif !important;
+}
+
+/* Glassmorphism gradient background */
+.stApp {
+    background: radial-gradient(circle at 10% 20%, rgba(15, 23, 42, 1) 0%, rgba(20, 18, 48, 1) 90.1%) !important;
+    background-attachment: fixed !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: rgba(15, 23, 42, 0.3);
+}
+::-webkit-scrollbar-thumb {
+    background: rgba(99, 102, 241, 0.4);
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(99, 102, 241, 0.7);
+}
+
+/* Glassmorphism Cards */
+.glass-card {
+    background: rgba(30, 41, 59, 0.45) !important;
+    backdrop-filter: blur(16px) saturate(180%) !important;
+    -webkit-backdrop-filter: blur(16px) saturate(180%) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 16px !important;
+    padding: 24px !important;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37) !important;
+    margin-bottom: 20px !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease !important;
+}
+
+.glass-card:hover {
+    transform: translateY(-4px) !important;
+    box-shadow: 0 12px 40px 0 rgba(99, 102, 241, 0.15) !important;
+    border-color: rgba(99, 102, 241, 0.3) !important;
+}
+
+/* Small Stats Cards */
+.stat-card {
+    background: rgba(17, 24, 39, 0.5) !important;
+    border: 1px solid rgba(255, 255, 255, 0.06) !important;
+    border-radius: 12px !important;
+    padding: 20px !important;
+    text-align: center !important;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2) !important;
+    transition: transform 0.2s ease, border-color 0.2s ease !important;
+}
+
+.stat-card:hover {
+    transform: scale(1.03) !important;
+    border-color: rgba(99, 102, 241, 0.25) !important;
+}
+
+.stat-val {
+    font-size: 2.2rem !important;
+    font-weight: 700 !important;
+    background: linear-gradient(135deg, #a78bfa 0%, #6366f1 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    margin: 8px 0 !important;
+}
+
+.stat-label {
+    font-size: 0.9rem !important;
+    color: #94a3b8 !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.05em !important;
+}
+
+/* Glass inputs and buttons */
+div[data-baseweb="input"] {
+    background-color: rgba(15, 23, 42, 0.6) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 8px !important;
+    color: #f3f4f6 !important;
+    transition: border-color 0.3s ease !important;
+}
+
+div[data-baseweb="input"]:focus-within {
+    border-color: #6366f1 !important;
+}
+
+/* Buttons */
+.stButton>button {
+    background: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%) !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 8px !important;
+    padding: 10px 24px !important;
+    font-weight: 600 !important;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3) !important;
+    transition: all 0.3s ease !important;
+    width: 100% !important;
+}
+
+.stButton>button:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5) !important;
+    background: linear-gradient(135deg, #818cf8 0%, #6366f1 100%) !important;
+}
+
+.stButton>button:active {
+    transform: translateY(0) !important;
+}
+
+/* Chat Message Styling */
+.chat-container {
+    max-height: 500px;
+    overflow-y: auto;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.user-bubble {
+    background: rgba(99, 102, 241, 0.25) !important;
+    border: 1px solid rgba(99, 102, 241, 0.2) !important;
+    border-radius: 16px 16px 4px 16px !important;
+    padding: 12px 16px !important;
+    margin-bottom: 10px !important;
+    max-width: 80% !important;
+    margin-left: auto !important;
+    color: #f3f4f6 !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.bot-bubble {
+    background: rgba(30, 41, 59, 0.7) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    border-radius: 16px 16px 16px 4px !important;
+    padding: 12px 16px !important;
+    margin-bottom: 10px !important;
+    max-width: 80% !important;
+    margin-right: auto !important;
+    color: #f3f4f6 !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Banner gradient header */
+.header-gradient {
+    background: linear-gradient(135deg, #a78bfa 0%, #6366f1 50%, #3b82f6 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    font-weight: 800 !important;
+}
+
+/* Hide default streamlit menu & footer */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+header {background: transparent !important;}

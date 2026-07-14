@@ -1,0 +1,52 @@
+[
+    {
+        "id": "t1",
+        "department": "Computer Science",
+        "semester": "Semester 1",
+        "day": "Monday",
+        "time": "09:00 AM - 10:30 AM",
+        "subject": "Intro to Programming",
+        "instructor": "Dr. Alan Turing",
+        "room": "Lab 101"
+    },
+    {
+        "id": "t2",
+        "department": "Computer Science",
+        "semester": "Semester 1",
+        "day": "Tuesday",
+        "time": "11:00 AM - 12:30 PM",
+        "subject": "Discrete Mathematics",
+        "instructor": "Dr. Grace Hopper",
+        "room": "Room 305"
+    },
+    {
+        "id": "t3",
+        "department": "Computer Science",
+        "semester": "Semester 1",
+        "day": "Wednesday",
+        "time": "02:00 PM - 03:30 PM",
+        "subject": "Database Systems",
+        "instructor": "Dr. Grace Hopper",
+        "room": "Lab 102"
+    },
+    {
+        "id": "t4",
+        "department": "Computer Science",
+        "semester": "Semester 1",
+        "day": "Thursday",
+        "time": "09:00 AM - 10:30 AM",
+        "subject": "Computer Architecture",
+        "instructor": "Dr. Alan Turing",
+        "room": "Room 201"
+    },
+    {
+        "id": "t5",
+        "department": "Electrical Eng.",
+        "semester": "Semester 1",
+        "day": "Monday",
+        "time": "10:30 AM - 12:00 PM",
+        "subject": "Basic Circuit Theory",
+        "instructor": "Prof. Nikola Tesla",
+        "room": "Room 204"
+    }
+]

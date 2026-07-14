@@ -1,0 +1,38 @@
+[
+    {
+        "id": "att-1",
+        "student_id": "student-uuid-1",
+        "student_name": "Alice Smith",
+        "department": "Computer Science",
+        "date": "2026-07-14",
+        "status": "Present",
+        "marked_by": "admin"
+    },
+    {
+        "id": "att-2",
+        "student_id": "student-uuid-2",
+        "student_name": "Bob Jones",
+        "department": "Computer Science",
+        "date": "2026-07-14",
+        "status": "Present",
+        "marked_by": "admin"
+    },
+    {
+        "id": "att-3",
+        "student_id": "student-uuid-1",
+        "student_name": "Alice Smith",
+        "department": "Computer Science",
+        "date": "2026-07-13",
+        "status": "Present",
+        "marked_by": "admin"
+    },
+    {
+        "id": "att-4",
+        "student_id": "student-uuid-2",
+        "student_name": "Bob Jones",
+        "department": "Computer Science",
+        "date": "2026-07-13",
+        "status": "Absent",
+        "marked_by": "admin"
+    }
+]

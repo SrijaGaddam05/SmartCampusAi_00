@@ -1,0 +1,29 @@
+[
+    {
+        "id": "faculty-uuid-1",
+        "name": "Dr. Alan Turing",
+        "email": "turing@university.edu",
+        "username": "turing",
+        "department": "Computer Science",
+        "designation": "Professor",
+        "status": "Active"
+    },
+    {
+        "id": "faculty-uuid-2",
+        "name": "Dr. Grace Hopper",
+        "email": "hopper@university.edu",
+        "username": "hopper",
+        "department": "Computer Science",
+        "designation": "Associate Professor",
+        "status": "Active"
+    },
+    {
+        "id": "faculty-uuid-3",
+        "name": "Prof. Nikola Tesla",
+        "email": "tesla@university.edu",
+        "username": "tesla",
+        "department": "Electrical Eng.",
+        "designation": "Professor",
+        "status": "Active"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "id": "act-1",
+        "username": "system",
+        "action": "Database Seeded",
+        "details": "Demo database records successfully initialized.",
+        "timestamp": "2026-07-14 14:33:17"
+    },
+    {
+        "id": "67f6ad94-0f4a-4f38-bd30-d7432622b8f5",
+        "username": "Gaddam_srija05",
+        "action": "Registration",
+        "details": "New user account registered as Student.",
+        "timestamp": "2026-07-14 15:02:13"
+    },
+    {
+        "id": "06821353-824e-4994-a415-6f6f4c7b3719",
+        "username": "gaddam_srija05",
+        "action": "Login",
+        "details": "Successful login via auth portal.",
+        "timestamp": "2026-07-14 15:05:29"
+    },
+    {
+        "id": "87492ec9-7dd1-42f4-9fb3-61edfe3480ac",
+        "username": "gaddam_srija05",
+        "action": "Login",
+        "details": "Successful login via auth portal.",
+        "timestamp": "2026-07-14 15:19:08"
+    },
+    {
+        "id": "d8e017a2-9cb8-4f66-b38d-3c67078e5108",
+        "username": "gaddam_srija05",
+        "action": "Login",
+        "details": "Successful login via auth portal.",
+        "timestamp": "2026-07-14 15:26:41"
+    }
+]
